@@ -1,0 +1,6 @@
+# apps.mk
+bin/
+# ./Android.mk
+# lib/
+# permissions/
+tmp/*

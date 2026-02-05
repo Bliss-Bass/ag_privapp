@@ -1,0 +1,87 @@
+LOCAL_PATH := $(my-dir)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := StarlightEmail
+LOCAL_MODULE_TAGS := optional
+LOCAL_SRC_FILES := prebuilts/prod-plat-priv-api-apps/StarlightEmail.apk
+LOCAL_MODULE_CLASS := APPS
+LOCAL_CERTIFICATE := platform
+LOCAL_OVERRIDES_PACKAGES := 
+LOCAL_PRIVILEGED_MODULE := true
+LOCAL_PRODUCT_MODULE := true
+LOCAL_PRIVATE_PLATFORM_APIS := true
+LOCAL_DEX_PREOPT := false
+
+LOCAL_PREBUILT_JNI_LIBS := \
+	lib/arm64-v8a/libandroidx.graphics.path.so \
+			
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := StarlightPDFViewer
+LOCAL_MODULE_TAGS := optional
+LOCAL_SRC_FILES := prebuilts/prod-plat-priv-api-apps/StarlightPDFViewer.apk
+LOCAL_MODULE_CLASS := APPS
+LOCAL_CERTIFICATE := platform
+LOCAL_OVERRIDES_PACKAGES := 
+LOCAL_PRIVILEGED_MODULE := true
+LOCAL_PRODUCT_MODULE := true
+LOCAL_PRIVATE_PLATFORM_APIS := true
+LOCAL_DEX_PREOPT := false
+
+LOCAL_PREBUILT_JNI_LIBS := \
+
+			
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := StarlightContacts
+LOCAL_MODULE_TAGS := optional
+LOCAL_SRC_FILES := prebuilts/prod-plat-priv-api-apps/StarlightContacts.apk
+LOCAL_MODULE_CLASS := APPS
+LOCAL_CERTIFICATE := platform
+LOCAL_OVERRIDES_PACKAGES := 
+LOCAL_PRIVILEGED_MODULE := true
+LOCAL_PRODUCT_MODULE := true
+LOCAL_PRIVATE_PLATFORM_APIS := true
+LOCAL_DEX_PREOPT := false
+
+LOCAL_PREBUILT_JNI_LIBS := \
+
+			
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := StarlightFax
+LOCAL_MODULE_TAGS := optional
+LOCAL_SRC_FILES := prebuilts/prod-plat-priv-api-apps/StarlightFax.apk
+LOCAL_MODULE_CLASS := APPS
+LOCAL_CERTIFICATE := platform
+LOCAL_OVERRIDES_PACKAGES := 
+LOCAL_PRIVILEGED_MODULE := true
+LOCAL_PRODUCT_MODULE := true
+LOCAL_PRIVATE_PLATFORM_APIS := true
+LOCAL_DEX_PREOPT := false
+
+LOCAL_PREBUILT_JNI_LIBS := \
+
+			
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := DroidifyEnterprise
+LOCAL_MODULE_TAGS := optional
+LOCAL_SRC_FILES := prebuilts/prod-plat-priv-api-apps/DroidifyEnterprise.apk
+LOCAL_MODULE_CLASS := APPS
+LOCAL_CERTIFICATE := platform
+LOCAL_OVERRIDES_PACKAGES := 
+LOCAL_PRIVILEGED_MODULE := true
+LOCAL_PRODUCT_MODULE := true
+LOCAL_PRIVATE_PLATFORM_APIS := true
+LOCAL_DEX_PREOPT := false
+
+LOCAL_PREBUILT_JNI_LIBS := \
+
+			
+include $(BUILD_PREBUILT)
+
